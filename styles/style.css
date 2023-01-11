@@ -9,6 +9,14 @@ a{
     margin-left: 150px;
     margin-right: 150px; 
 }
+.btn-primary {
+    padding: 15px 25px;
+    font-size: 16px;
+    margin-top: 10px;
+    background: #26b8f1;
+    border: none;
+    color: white;
+  }
 /* nav css section */
 header {
     background-color: #abe7ff;
@@ -128,4 +136,65 @@ header {
     background-color: #26b8f1;
     transition: 0.5s;
     color: white;
+}
+/* about section css */
+.about {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.about-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 35px;
+}
+.about-title {
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight: 100;
+    margin-bottom: 10px;
+    font-family: 'Playfair Display', serif;
+}
+.about-description{
+    margin-top: 10px;
+    color: #646464;
+    font-size: 15px;
+    font-family: 'Work Sans', sans-serif;
+    line-height: 30px;
+}
+.about-hr {
+    width: 100px;
+}
+/* features section css */
+.features {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.features-title {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 100;
+}
+.features-hr {
+    width: 98px;
+    margin-left: 45%;
+}
+.features-section{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 40px;
+    margin-top: 50px;
+}
+.features-icon {
+    font-size: 70px;
+    margin-left: 90px;
+    color: #26b8f1;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.feature-description {
+    font-size: 22px;
+    text-align: center;
+    font-weight: 100;
 }
