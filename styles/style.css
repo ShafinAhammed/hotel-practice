@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    margin-left: 150px;
+    margin-right: 150px; 
+}
+/* nav css section */
+header {
+    background-color: #abe7ff;
+    padding-bottom: 20px;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.logo-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    margin-top: 15px;
+}
+.logo-detail-name {
+    font-family: 'Work Sans', sans-serif;
+    color: #515151;
+    font-size: 15px;
+}
+.nav-menu {
+    margin-top: 30px;
+}
+.nav-menu-details {
+    margin-left: 15px;
+    font-size: 15px;
+    font-family: 'Work Sans', sans-serif;
+    color: #282828;
+    padding: 10px 15px;
+}
+.nav-menu-details:hover{
+    transition: 0.5s;
+    /* border: 1px solid #f22619; */
+    padding: 10px 15px;
+    background-color: #26b8f1;
+    color: white;
+}
+/* background css section */
+.background-img {
+    background-image: url(../images/background2.webp);
+    height: 625px;
+    background-repeat: round;
+    background-blend-mode: multiply;
+    background-color: gray;
+}
+.background-title {
+    padding-top: 18%;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    color: white;
+}
+.background-description {
+    padding-top: 10px;
+    text-align: center;
+    color: #ccc9c9;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+}
+/* room section css */
+.room-section {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.room {
+    margin-top: 80px;
+}
+.room-title {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 100;
+}
+.room-hr {
+    width: 98px;
+    margin-left: 45%;
+}
+.room-section, .room-details, img{
+    width: 100%;
+}
+.room-details {
+    padding: 5px 5px 30px 5px;
+    text-align: center;
+}
+.room-details:hover{
+    background-color: #f1fbff;
+    box-shadow: 10px 5px 5px #d1edf8;
+    transition: 0.5s;
+}
+.room-details-title {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;
+    font-family: 'Playfair Display', serif;
+}
+.room-price {
+    text-align: center;
+    margin-top: 10px;
+    color: #646464;
+    font-size: 15px;
+    font-family: 'Work Sans', sans-serif;
+}
+.room-book {
+    padding: 15px 25px;
+    font-size: 16px;
+    margin-top: 25px;
+    background: white;
+    border: none;
+}
+.room-book:hover{
+    background-color: #26b8f1;
+    transition: 0.5s;
+    color: white;
+}
